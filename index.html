@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>BOGO Offer</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1><span>YAY! It's BOGO</span></h1>
+      </div>
+
+      <div class="offer-box" onclick="toggleDetails(this)">
+        <div class="offer-header">
+          <div class="offer-title">
+            <input type="radio" name="offer" id="offer1"/>
+            <div>
+              <div style="display: flex; gap: 5px">
+                <h4>1 Unit</h4>
+                <span class="offer">10% Off</span>
+              </div>
+              <p style="font-size: small">Standard Price</p>
+            </div>
+          </div>
+          <div class="offer-pricing">
+            <h4 style="font-size: medium">$10.00 USD</h4>
+            <p
+              style="
+                font-size: small;
+                text-decoration: line-through;
+                color: gray;
+              "
+            >
+              $24.00 USD
+            </p>
+          </div>
+        </div>
+        <div class="details">
+          <div class="option-container">
+            <div class="option-row">
+              <span>#1</span>
+              <div class="option-group">
+                <label for="size1">Size</label>
+                <select id="size1">
+                  <option value="S">S</option>
+                  <option value="M">M</option>
+                  <option value="L">L</option>
+                </select>
+              </div>
+              <div class="option-group">
+                <label for="color1">Colour</label>
+                <select id="color1">
+                  <option value="Black">Black</option>
+                  <option value="Red">Red</option>
+                  <option value="Blue">Blue</option>
+                </select>
+              </div>
+            </div>
+            <div class="option-row">
+              <span>#2</span>
+              <div class="option-group">
+                <select id="size2">
+                  <option value="S">S</option>
+                  <option value="M">M</option>
+                  <option value="L">L</option>
+                </select>
+              </div>
+              <div class="option-group">
+                <select id="color2">
+                  <option value="Black">Black</option>
+                  <option value="Red">Red</option>
+                  <option value="Blue">Blue</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="offer-box" onclick="toggleDetails(this)">
+        <div class="offer-header">
+          <div class="offer-title">
+            <input type="radio" name="offer" id="offer2"/>
+            <div>
+              <div style="display: flex; gap: 5px">
+                <h4>2 Unit</h4>
+                <span class="offer">20% Off</span>
+              </div>
+            </div>
+          </div>
+          <div class="offer-pricing">
+            <h4 style="font-size: medium">$18.00 USD</h4>
+            <p
+              style="
+                font-size: small;
+                text-decoration: line-through;
+                color: gray;
+              "
+            >
+              $24.00 USD
+            </p>
+          </div>
+        </div>
+        <span class="badge">MOST POPULAR</span>
+        <div class="details">
+          <div class="option-container">
+            <div class="option-row">
+              <span>#1</span>
+              <div class="option-group">
+                <label for="size1">Size</label>
+                <select id="size1">
+                  <option value="S">S</option>
+                  <option value="M">M</option>
+                  <option value="L">L</option>
+                </select>
+              </div>
+              <div class="option-group">
+                <label for="color1">Colour</label>
+                <select id="color1">
+                  <option value="Black">Black</option>
+                  <option value="Red">Red</option>
+                  <option value="Blue">Blue</option>
+                </select>
+              </div>
+            </div>
+            <div class="option-row">
+              <span>#2</span>
+              <div class="option-group">
+                <select id="size2">
+                  <option value="S">S</option>
+                  <option value="M">M</option>
+                  <option value="L">L</option>
+                </select>
+              </div>
+              <div class="option-group">
+                <select id="color2">
+                  <option value="Black">Black</option>
+                  <option value="Red">Red</option>
+                  <option value="Blue">Blue</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="offer-box" onclick="toggleDetails(this)">
+        <div class="offer-header">
+          <div class="offer-title">
+            <input type="radio" name="offer" id="offer3"/>
+            <div>
+              <div style="display: flex; gap: 5px">
+                <h4>3 Unit</h4>
+                <span class="offer">30% Off</span>
+              </div>
+            </div>
+          </div>
+          <div class="offer-pricing">
+            <h4 style="font-size: medium">$24.00 USD</h4>
+            <p
+              style="
+                font-size: small;
+                text-decoration: line-through;
+                color: gray;
+              "
+            >
+              $24.00 USD
+            </p>
+          </div>
+        </div>
+        <div class="details">
+          <div class="option-container">
+            <div class="option-row">
+              <span>#1</span>
+              <div class="option-group">
+                <label for="size1">Size</label>
+                <select id="size1">
+                  <option value="S">S</option>
+                  <option value="M">M</option>
+                  <option value="L">L</option>
+                </select>
+              </div>
+              <div class="option-group">
+                <label for="color1">Colour</label>
+                <select id="color1">
+                  <option value="Black">Black</option>
+                  <option value="Red">Red</option>
+                  <option value="Blue">Blue</option>
+                </select>
+              </div>
+            </div>
+            <div class="option-row">
+              <span>#2</span>
+              <div class="option-group">
+                <select id="size2">
+                  <option value="S">S</option>
+                  <option value="M">M</option>
+                  <option value="L">L</option>
+                </select>
+              </div>
+              <div class="option-group">
+                <select id="color2">
+                  <option value="Black">Black</option>
+                  <option value="Red">Red</option>
+                  <option value="Blue">Blue</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer">
+        <div class="footer-details">
+          <p style="color: #ff6680">Free Delivery</p>
+          <p>Total: $18.00 USD</p>
+        </div>
+        <button class="add-to-cart">+ Add to Cart</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
